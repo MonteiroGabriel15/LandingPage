@@ -1,5 +1,6 @@
 import React from "react";
 import {Route, BrowserRouter, Routes} from "react-router-dom"
+import Home from "../pages/home"
 
 const RouterComponent = () => {
     return(
@@ -10,3 +11,5 @@ const RouterComponent = () => {
         </BrowserRouter>
     )
 }
+
+export default RouterComponent;
